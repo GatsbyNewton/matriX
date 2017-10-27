@@ -1,7 +1,7 @@
-package edu.utils
+package edu.matrix.utils
 
+import edu.matrix.compution.BlockID
 import org.apache.spark.Partitioner
-import edu.compution.BlockID
 
 /**
  * @author Administrator

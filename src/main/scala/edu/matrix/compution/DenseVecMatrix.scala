@@ -1,8 +1,8 @@
-package edu.compution
+package edu.matrix.compution
 
 import breeze.linalg.DenseMatrix
 import breeze.linalg.{DenseVector => DVector}
-import org.apache.spark.SparkContext
+import org.apache.spark.Spark
 import org.apache.spark.SparkContext._
 import org.apache.spark.rdd.RDD
 import java.util.StringTokenizer

@@ -1,10 +1,14 @@
-package edu.rdd
+package edu.matrix.rdd
 
 import org.apache.spark.SparkContext
 import edu.utils.RandomDataGenerator
 import edu.utils.OnesGenerator
 import org.apache.spark.rdd.RDD
 import edu.compution.DenseVector
+import edu.matrix.compution.DenseVector
+import edu.matrix.utils.{OnesGenerator, RandomDataGenerator}
+import matrix.compution.DenseVector
+import matrix.utils.{OnesGenerator, RandomDataGenerator}
 
 /**
  * @author Administrator

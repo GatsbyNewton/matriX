@@ -1,4 +1,4 @@
-package edu.compution
+package edu.matrix.compution
 
 /**
  * Notice: the code in this file is copy from MLlib, to make it compatible

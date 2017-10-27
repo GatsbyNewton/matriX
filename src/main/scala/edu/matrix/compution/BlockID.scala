@@ -1,4 +1,4 @@
-package edu.compution
+package edu.matrix.compution
 
 /**
  * @author Administrator

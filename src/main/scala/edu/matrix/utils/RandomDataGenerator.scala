@@ -1,4 +1,4 @@
-package edu.utils
+package edu.matrix.utils
 
 import org.apache.spark.util.random.Pseudorandom
 

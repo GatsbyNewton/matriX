@@ -1,13 +1,13 @@
-package edu.compution
+package edu.matrix.compution
 
 import breeze.linalg.DenseMatrix
+import edu.matrix.utils.MatrixPartitions
 import org.apache.spark.rdd.RDD
 import org.apache.spark.SparkContext._
-import scala.collection.mutable.ArrayBuffer
 
-import org.apache.hadoop.io.{Text, NullWritable}
+import scala.collection.mutable.ArrayBuffer
+import org.apache.hadoop.io.{NullWritable, Text}
 import org.apache.hadoop.mapred.TextOutputFormat
-import edu.utils.MatrixPartitions
 
 /**
  * @author Administrator

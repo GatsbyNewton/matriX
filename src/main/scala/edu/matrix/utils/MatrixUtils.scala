@@ -1,13 +1,17 @@
-package edu.utils
+package edu.matrix.utils
 
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
+
 import scala.util.hashing.MurmurHash3
 import java.nio.ByteBuffer
-import edu.compution.DenseVecMatrix
+
 import edu.compution.Vectors
 import edu.compution.DenseVecMatrix
+import edu.matrix.compution.{DenseVecMatrix, Vectors}
+import edu.matrix.rdd.RandomVecRDDs
 import edu.rdd.RandomVecRDDs
+import matrix.compution.{DenseVecMatrix, Vectors}
 
 /**
  * @author Administrator

@@ -1,12 +1,15 @@
-package edu.rdd
+package edu.matrix.rdd
+
+import edu.matrix.compution.DenseVector
+import edu.matrix.utils.RandomDataGenerator
 
 import scala.util.Random
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
 import org.apache.spark.Partition
-import edu.compution.DenseVector
 import edu.utils.RandomDataGenerator
 import edu.utils.RandomDataGenerator
+import matrix.utils.RandomDataGenerator
 import org.apache.spark.TaskContext
 /**
  * @author Administrator

@@ -1,4 +1,4 @@
-package edu.main
+package edu.matrix.main
 
 import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
@@ -6,6 +6,8 @@ import org.apache.spark.SparkContext._
 import edu.utils.MatrixUtils
 import edu.compution.DenseVecMatrix
 import edu.compution.BlockMatrix
+import edu.matrix.utils.MatrixUtils
+import matrix.utils.MatrixUtils
 
 /**
  * @author Administrator
